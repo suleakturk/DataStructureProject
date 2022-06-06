@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: darkorange;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.datastructureproject.ShowBonusController">
+   <children>
+      <Label fx:id="labelText" layoutX="71.0" layoutY="50.0" prefHeight="20.0" prefWidth="213.0" text="BONUS WINNERS:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Button fx:id="listForPositionButton" layoutX="42.0" layoutY="332.0" mnemonicParsing="false" onAction="#onListForPositionButtonClick" prefHeight="26.0" prefWidth="102.0" text="list for position" />
+      <Button fx:id="listForNameButton" layoutX="174.0" layoutY="332.0" mnemonicParsing="false" onAction="#onListForNameButtonClick" prefHeight="26.0" prefWidth="84.0" text="list for name" />
+      <TextArea fx:id="textArea" layoutX="53.0" layoutY="100.0" prefHeight="200.0" prefWidth="479.0" style="-fx-background-color: black;">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextArea>
+      <Button fx:id="addBonusButton" layoutX="344.0" layoutY="332.0" mnemonicParsing="false" onAction="#addBonusButtonClick" prefHeight="26.0" prefWidth="84.0" text="add bonus" />
+      <Button fx:id="showWinnersButton" layoutX="456.0" layoutY="332.0" mnemonicParsing="false" onAction="#showWinnersButtonClick" prefHeight="26.0" prefWidth="90.0" text="show winners" />
+   </children>
+</AnchorPane>
